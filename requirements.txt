@@ -1,2 +1,0 @@
-# Intentionally minimal at project start.
-# Add runtime dependencies as features are implemented.
