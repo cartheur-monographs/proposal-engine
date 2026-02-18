@@ -2,54 +2,23 @@
 
 The Proposal Engine is a focused toolkit for generating persuasive, structured proposals with AI-assisted drafting and human editorial control.
 
-## Vision
+## Project Outline
 
-- Turn rough ideas into clear, client-ready proposals.
-- Keep humans in control of tone, claims, and final messaging.
-- Standardize proposal quality across teams and use cases.
+### Core Narrative
+- [Main Collaborative Pitch](PROJECT_PITCH.md): Discovery-first partnership thesis and engagement structure.
+- [One-Page Brief](PITCH_ONE_PAGER.md): Concise investor-facing summary.
+- [Visionary Version](PITCH_VISIONARY.md): Broad, speculative strategic narrative.
+- [Forest + Sustainable Ag Version](PITCH_FOREST_AG.md): Partner-specific framing for land-based operations.
 
-## Project Status
+### Presentation Assets
+- [10-Slide Deck Outline](PITCH_SLIDE_DECK.md): Meeting-ready slide structure.
+- [Standard Talk Track](PITCH_TALK_TRACK.md): 30-60 second script per slide.
+- [Executive Talk Track](PITCH_TALK_TRACK_EXEC.md): ~20 second script per slide (~4 minutes total).
 
-Early scaffold. The repository now includes a Python package, a CLI entrypoint, and room for templates, data, and tests.
+### Partner Readiness
+- [Investor Q&A Cheat Sheet](PITCH_QA_CHEAT_SHEET.md): Responses on risk, moat, adoption timeline, and commercialization.
 
-## Quick Start
-
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python -m proposal_engine --help
-```
-
-## Repository Layout
-
-```text
-proposal-engine/
-  proposal_engine/
-    __init__.py
-    __main__.py
-    cli.py
-  templates/
-  tests/
-  requirements.txt
-```
-
-## Next Milestones
-
-1. Define proposal schema and validation rules.
-2. Add prompt templates for common proposal types.
-3. Implement generation and revision workflows.
-4. Add end-to-end tests for deterministic sections.
-
-## Pitch Draft
-
-See `PROJECT_PITCH.md` for the collaborative, discovery-first investment pitch synthesized from source materials in `materials/`.
-
-Additional variants:
-- `PITCH_ONE_PAGER.md` (concise investor brief)
-- `PITCH_VISIONARY.md` (speculative, big-picture narrative)
-- `PITCH_FOREST_AG.md` (partner-specific version for forest management and sustainable agriculture)
-- `PITCH_SLIDE_DECK.md` (10-slide, meeting-ready outline)
-- `PITCH_TALK_TRACK.md` (speaker script, ~30-60 seconds per slide)
-- `PITCH_TALK_TRACK_EXEC.md` (executive speaker script, ~20 seconds per slide)
-- `PITCH_QA_CHEAT_SHEET.md` (investor Q&A prep: risk, moat, timeline, commercialization)
+### Source Materials
+- `materials/Memorandum--GA144A12.docx`
+- `materials/Memorandum--GA144A12-HVDC.docx`
+- `materials/Overcoming Adoption Barriers Through an Application Discovery Process.docx`
