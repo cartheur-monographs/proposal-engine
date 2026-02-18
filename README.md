@@ -40,3 +40,16 @@ proposal-engine/
 2. Add prompt templates for common proposal types.
 3. Implement generation and revision workflows.
 4. Add end-to-end tests for deterministic sections.
+
+## Pitch Draft
+
+See `PROJECT_PITCH.md` for the collaborative, discovery-first investment pitch synthesized from source materials in `materials/`.
+
+Additional variants:
+- `PITCH_ONE_PAGER.md` (concise investor brief)
+- `PITCH_VISIONARY.md` (speculative, big-picture narrative)
+- `PITCH_FOREST_AG.md` (partner-specific version for forest management and sustainable agriculture)
+- `PITCH_SLIDE_DECK.md` (10-slide, meeting-ready outline)
+- `PITCH_TALK_TRACK.md` (speaker script, ~30-60 seconds per slide)
+- `PITCH_TALK_TRACK_EXEC.md` (executive speaker script, ~20 seconds per slide)
+- `PITCH_QA_CHEAT_SHEET.md` (investor Q&A prep: risk, moat, timeline, commercialization)
